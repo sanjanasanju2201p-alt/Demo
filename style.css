@@ -1,0 +1,15 @@
+body{
+  font-family: sans-serif;
+  background: #111;
+  color: #eee;
+  padding: 30px;
+}
+.wrap{max-width: 400px; margin: 0 auto;}
+form{display:flex; gap:8px; margin-bottom:16px;}
+input{flex:1; padding:8px; border-radius:6px; border:none;}
+button{padding:8px 14px; border:none; border-radius:6px; background:#5fe0c0; cursor:pointer;}
+li{
+  display:flex; justify-content:space-between;
+  background:#222; padding:8px 12px; margin-bottom:6px; border-radius:6px;
+}
+li button{background:#ff6b81; color:white; padding:4px 8px; font-size:.8rem;}

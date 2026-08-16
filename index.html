@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Todo Demo</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <h1>My Todo List</h1>
+
+  <form id="todoForm">
+    <input type="text" id="taskInput" placeholder="Enter a task" required />
+    <button type="submit">Add</button>
+  </form>
+
+  <ul id="taskList"></ul>
+</div>
+
+<!-- Firebase SDKs (CDN version, no npm needed) -->
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
+
+<script src="script.js"></script>
+</body>
+</html>
